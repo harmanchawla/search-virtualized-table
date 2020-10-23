@@ -6,6 +6,7 @@ import TableCell from '@material-ui/core/TableCell';
 import Paper from '@material-ui/core/Paper';
 import { AutoSizer, Column, Table } from 'react-virtualized';
 
+
 const styles = (theme) => ({
     flexContainer: {
         display: 'flex',
@@ -52,6 +53,7 @@ class MuiVirtualizedTable extends React.PureComponent {
         headerHeight: 48,
         rowHeight: 48,
     };
+    
 
     getRowClassName = ({ index }) => {
         const { classes, onRowClick } = this.props;
