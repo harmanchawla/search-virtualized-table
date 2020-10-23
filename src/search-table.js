@@ -160,7 +160,7 @@ const VirtualizedTable = withStyles(styles)(MuiVirtualizedTable);
 export default function ReactVirtualizedTable() {
 
     const inputStyle = {
-        width: '600px',
+        width: '650px',
         fontSize: '18px',
         outline: 'None',
         border: '1px solid #eee',
@@ -200,7 +200,6 @@ export default function ReactVirtualizedTable() {
 
     return (
         <>
-            <br /> <br />
             <input
                 placeholder="Search here..."
                 type="text"
